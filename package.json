@@ -1,0 +1,25 @@
+{
+  "name": "specsense-bestbuy-timing-hack",
+  "version": "1.0.0",
+  "description": "SpecSense – BestBuy Timing Hack: Full-stack electronics spec comparison & 90-day price intelligence application",
+  "scripts": {
+    "start": "node backend/server.js",
+    "seed": "node backend/database/seed.js",
+    "build": "npm run build --prefix frontend",
+    "dev": "node backend/server.js",
+    "dev:frontend": "npm run dev --prefix frontend",
+    "dev:backend": "npm run dev --prefix backend"
+  },
+  "keywords": [
+    "price-tracker",
+    "electronics",
+    "spec-comparison",
+    "best-time-to-buy",
+    "fullstack",
+    "sqlite",
+    "react",
+    "express"
+  ],
+  "author": "Google Antigravity Senior Engineering Team",
+  "license": "MIT"
+}
